@@ -168,6 +168,26 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header nav {
+  float: right;
+  padding: 40px;
+  font-size: 20px;
+}
+header h1 {
+  float: left;
+  padding: 40px;
+}
+header a {
+  text-decoration: none;
+  margin: 5px;
+}
+header a:link,
+header a:visited {
+  color: black;
+}
+header a:hover {
+  color: red;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -224,4 +244,9 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.headerBus {
+  border-top: 2px dashed #C0C0C0;
+  width: 100%;
+  padding-bottom: 20px;
 }
